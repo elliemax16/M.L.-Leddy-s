@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #f1e8dd;
+}
+
+a{
+    font-family: tt-globs;
+    font-weight: 400;
+    text-decoration: none;
+    color: #8e9b8f;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 45px;
+    font-family: tt-globs;
+    font-weight: 400;
+}
+
+.logo{
+    width: 150px;
+}
+
+.nav-link{
+    padding-top: 18px;
+}
+
+a:hover{
+    color: #008752;
+}
+
+.homepage{
+    height: 820px;
+}
+
+.street{
+    position: relative;
+    img{
+        width: 100%;
+    }
+}
+
+.maintext{
+    position: absolute;
+    font-family: baskerville-urw;
+    font-weight: 500 !important;
+    font-size: 100px;
+    line-height: 90px;
+    color: #f1e8dd;
+    text-shadow: 3.5px 3.5px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    justify-content: center;
+    padding: 0 300px;
+    z-index: 1;
+    top: 295px;
+}
+
+.gradient{
+    position: relative;
+    height: 400px;
+    background-image: linear-gradient(rgba(241, 232, 221, 0), rgba(241, 232, 221, 1));
+    top: -400px;
+}
+
+.story{
+    display: flex;
+    gap: 35px;
+    width: 1000px;
+    background-color: #cb7556;
+    padding: 20px;
+    margin: auto;
+}
+
+.abouttext{
+    width: 55%;
+    color: #f1e8dd;
+    font-family: rama-slab-e;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+}
+
+.family{
+    width: 45%;
+    margin-top: 18px;
+    img{
+        width: 100%;
+    }
+}
+
+span{
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 1.7px 1.7px 1px rgba(37, 33, 32, 0.7);
+    color: #aa4c35;
+}
+
+.custom{
+    margin-top: 70px;
+}
+
+h1{
+    font-family: rama-slab-e;
+    font-weight: 600;
+    color: #624737;
+    letter-spacing: 15px;
+    margin-top: 110px;
+}
+
+.productheader{
+   display: flex;
+   justify-content: center;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+    gap: 50px;
+}
+
+.bootimage{
+    width: 20%;
+    transition: 0.2s ease-in-out;
+    img{
+        width: 100%;
+    }
+}
+
+.bootimage:hover, .category:hover{
+    transform: scale(1.1);
+    img{
+        box-shadow: 3px 3px 5px #d7c9b7;
+    }
+}
+
+.description{
+    font-family: rama-slab-e;
+    font-weight: 100;
+    color: #231f20;
+    text-align: center;
+    justify-content: center;
+}
+
+.seemore{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.row1, .row2{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 300px;
+    width: 700px !important;
+}
+
+.row1{
+    gap: 20px;
+}
+
+.row2{
+    gap: 34px;
+}
+
+.category{
+    font-family: rama-slab-e;
+    font-weight: 400;
+    font-size: 21px;
+    color: #3c1f17;
+    text-align: center;
+    transition: 0.25s ease-in-out;
+    img{
+        height: 250px;
+    }
+}
+
+.newsletter{
+    margin-top: 100px;
+}
+
+.formtext{
+    display: flex;
+    justify-content: center;
+    p{
+        font-family: rama-slab-e;
+        font-weight: 300;
+        font-size: 24px;
+        color: #7d795e;
+        margin: 4px 0 18px;
+    }
+}
+
+h3{
+    font-family: tt-globs;
+    font-weight: 400;
+    font-size:32px;
+    color: #b29a7f;
+    text-align: center;
+}
+
+.namerow, .email, .phone, .submit{
+    display: flex;
+    justify-content: center;
+}
+
+.namerow{
+    gap: 15px;
+}
+
+.firstname, .lastname{
+    width: 275px !important;
+}
+
+.form-control{
+    background-color: #8e9b8f;
+    border: 2px solid #7d795e;
+    border-radius: 18px;
+    height: 28px !important;
+    width: 580px;
+    margin-top: 15px;
+    font-family: rama-slab-e;
+    font-weight: 400;
+    font-size: 21px;
+    padding-left: 10px;
+}
+
+::placeholder{
+    color: #f1e8dd;
+}
+
+.btn-primary{
+    background-color: #008752;
+    border: none;
+    border-radius: 15px;
+    height: 32px;
+    width: 160px;
+    margin-top: 15px;
+    font-family: baskerville-urw;
+    font-weight: 700;
+    font-size: 20px;
+    color: #f1e8dd;
+    transition: 0.1s ease-in-out;
+    text-align: center;
+}
+
+.btn-primary:hover{
+    transform:scale(1.05);
+    background-color: #075f3c;
+    box-shadow: 2px 2px 4px #d6c4ad; 
+    color: #f1e8dd;
+}
+
+.leftstar, .rightstar{
+    height: 28px;
+    margin: 15px;
+    
+}
+
+.leftstar{
+    transform:rotateX(180deg) rotateY(180deg);
+}
+
+.bootsign{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin: 40px 0 10px;
+}
+
+.painting{
+    
+    position: relative;
+    img{
+        width: 100%;
+        opacity: 75%;
+    }
+}
+
+.creamfade{
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    background-image: linear-gradient(rgba(241, 232, 221, 1), rgba(241, 232, 221, 0));
+}
+
+.greenfade{
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    z-index: 2;
+    bottom: 0;
+    background-image: linear-gradient(rgba(125, 121, 94, 0), rgba(125, 121, 94, 1));
+}
+
+.greenbox{
+    height: 270px;
+    width: 100%;
+    background-color: #7d795e;
+    margin-top: -3px;
+}
+
+.footertext{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 680px;
+    z-index: 2;
+    color: #f1e8dd;
+    padding: 50px;
+    gap: 100px;
+}
+
+.footertitle{
+    font-family: rama-slab-e;
+    font-weight: 600;
+    font-size: 28px;
+    text-shadow: none;
+    color: #f1e8dd;
+}
+
+.socials{
+    width: 675px;
+}
+
+.icons{
+    display: flex;
+    width: 100px;
+    gap: 50px;
+    margin-top: 10px;
+    img{
+        height: 40px;
+    }
+}
+
+.locations, .shop, .about{
+    font-family: rama-slab-e;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 720px){
+    
+    .navbar-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 30px;
+    }
+
+    .nav-link{
+        font-size: 10px;
+    }
+
+    .homepage{
+        height: 420px;
+    }
+
+    .gradient{
+        height: 165px;
+        top: -169px;
+    }
+
+    .maintext{
+        font-size: 55px;
+        line-height: 56px;
+        padding: 0 100px;
+        top: 170px;
+    }
+
+    .story{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+
+    .abouttext{
+        width: 72%;
+        color: #f1e8dd;
+        font-family: rama-slab-e;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .family{
+        width: 80%;
+        padding-top: 15px;
+        margin: auto;
+        img{
+            width: 100%;
+        }
+    }
+
+    span{
+        font-size: 24px;
+    }
+
+    .custom{
+        margin-top: 20px;
+    }
+    
+    h1{
+        font-size: 32px;
+        margin-top: 80px;
+    }
+
+    .images{
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px 100px;
+        gap: 20px;
+    }
+    
+    .bootimage{
+        margin: auto;
+        width: 65%;
+    }
+    
+    .seemore{
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .row1, .row2{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    .row1{
+        margin: 20px 0;
+    }
+    
+    .category{
+        margin-top: 10px;
+        img{
+            width: 200px;
+            height: 100%;
+        }
+    }
+
+    .row {
+        padding: 10px;
+    }
+
+    .namerow{
+        flex-direction: column;
+        gap:0;
+    }
+    
+    .firstname, .lastname, .email, .phone{
+        width: 100% !important;
+    }
+    
+    .form-control{
+        height: 28px;
+        width: 100% !important;
+        margin-top: 15px;
+        font-size: 21px;
+        padding-left: 10px;
+    }
+
+    .bootsign{
+        height: 200px;
+        margin: 40px 0 10px;
+    }
+
+    .creamfade, .greenfade{
+        height: 150px;
+    }
+
+    .greenbox{
+        height: 200px;
+        }
+    
+    .footertext{
+        top: 300px;
+        padding: 20px;
+        gap: 50px;
+    }
+
+    .footertitle{
+        font-size: 20px;
+    }
+    
+    .socials{
+        width: 100%;
+    }
+    .icons{
+        gap: 36px;
+        margin: 10px 0;
+        img{
+            height: 30px;
+        }
+    }
+    
+    .socials, .locations, .shop, .about{
+        font-size: 18px;
+    }
+    
+}
